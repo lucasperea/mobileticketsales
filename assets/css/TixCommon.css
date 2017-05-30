@@ -1,0 +1,100 @@
+﻿/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+/*tix defaults*/
+.PanelHeader 
+{
+    border-width: 1px;
+    border-color: #AAAAAA;
+    border-style: solid;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+}
+
+.PanelContent 
+{
+    border-width: 1px;
+    border-color: #AAAAAA;
+    border-style: none solid solid solid;
+    text-align: left;        
+    padding: 5px 10px 5px 10px;
+}    
+
+.TixButtonNext
+{
+    background-color: #008400;
+    color: #FFFFFF;
+}    
+     
+.TixButtonBack
+{
+    background-color: #31418C;
+    color: #FFFFFF;
+}    
+
+.TixButtonCancel
+{
+    background-color: #CD2228;
+    color: #FFFFFF;
+}
+
+.TixContent
+{
+    font-size: 12px;
+    line-height: normal;
+}
+
+.TixContent table, tbody, tr, td, div, span
+{
+    font-size: 12px;
+    line-height: normal;
+}
+
+.TixContent th
+{
+    padding: 4px;
+}
+
+.TixContent h3
+{
+    font-size: 22px;
+    line-height: normal;
+}
+/*Custom stuff*/
+body {
+    margin: 0;
+    background: #29434e;
+}
+
+.TixHeader {
+    background: #546e7a;
+    width: 100vw;
+    max-width: 100vw;
+    color:#fff;
+    position: relative;
+    padding: .5rem;
+    margin: .5rem 0;
+}
+
+.TixHeader a {
+    text-decoration: none;
+    color:#fff;
+}
+.ClientBrand {
+    color:#fff;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+
+}
+.TixContentBG {
+    color:#444;
+    background: #eee;
+    min-width: 100vw;
+    
+}
+
+/*pullllls*/
+.pull-right {
+    float: right;
+   
+}
